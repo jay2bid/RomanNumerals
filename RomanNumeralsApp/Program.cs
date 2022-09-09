@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using RomanNumeralsApp;
+var converter = new RomanNumeralsConverter();
+string userInput = converter.GetUserInput();
+converter.ConvertRomanNumerals(userInput);
